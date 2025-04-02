@@ -22,8 +22,3 @@ On the government’s pledge to build 1.5 million homes, she scoffs: “The last
 When asked about balancing help between local homeless people and asylum seekers, she shifts uncomfortably. “I don’t have all the answers. I just know this isn’t sustainable.”
 
 She sighs, glancing at her overflowing inbox. “Tomorrow, there’ll be another eviction, another desperate phone call, another case I have to handle.” And on what Prime Minister Keir Starmer will do? “I don’t think even he knows.”
-
----
-
-
-Add homelessness article
