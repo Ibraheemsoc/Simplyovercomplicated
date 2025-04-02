@@ -1,5 +1,5 @@
 ---
-title: Britain’s Homelessness Crisis: Are Councils Fighting a Losing Battle?
+title: "Britain’s Homelessness Crisis: Are Councils Fighting a Losing Battle?"
 date: 2025-04-02
 ---
 
