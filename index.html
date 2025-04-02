@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simply Overcomplicated</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #fff; color: #000; padding: 2rem; }
+    h1, h2 { margin-bottom: 0.5rem; }
+    a { text-decoration: none; color: black; font-weight: bold; }
+    .article-link { margin-bottom: 1.5rem; display: block; border-bottom: 1px solid #000; padding-bottom: 1rem; }
+  </style>
+</head>
+<body>
+  <h1>Simply Overcomplicated</h1>
+  <div id="articles">
+    <!-- Articles will be listed here -->
+  </div>
+
+  <script>
+    const articles = [
+      { title: "Why Simplicity Matters", file: "articles/why-simplicity-matters.md" },
+      { title: "The Weight of Expectations", file: "articles/weight-of-expectations.md" }
+    ];
+
+    const container = document.getElementById('articles');
+    articles.forEach(article => {
+      const link = document.createElement('a');
+      link.href = article.file;
+      link.className = 'article-link';
+      link.innerText = article.title;
+      container.appendChild(link);
+    });
+  </script>
+</body>
+</html>
