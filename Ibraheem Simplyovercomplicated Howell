@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simply Overcomplicated</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+      color: #000;
+    }
+
+    header {
+      padding: 2rem;
+      text-align: center;
+      border-bottom: 1px solid #000;
+    }
+
+    .logo {
+      max-width: 150px;
+      height: auto;
+      margin-bottom: 1rem;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #000;
+      font-weight: bold;
+    }
+
+    .container {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .story {
+      border-bottom: 1px solid #000;
+      margin-bottom: 2rem;
+      padding-bottom: 1rem;
+    }
+
+    .story h2 {
+      margin: 0 0 0.5rem 0;
+    }
+
+    .story p {
+      margin: 0;
+    }
+
+    footer {
+      padding: 1rem;
+      text-align: center;
+      border-top: 1px solid #000;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="Simply Overcomplicated Logo" class="logo" />
+    <h1>Simply Overcomplicated</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Subscribe</a>
+      <a href="#">Donate</a>
+      <a href="#">Shop</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="story">
+      <h2>Story Title One</h2>
+      <p>A short description of this story — maybe a quote or teaser line that hooks readers in.</p>
+    </div>
+    <div class="story">
+      <h2>Story Title Two</h2>
+      <p>Another short summary — each post here can link to a full article later.</p>
+    </div>
+    <div class="story">
+      <h2>Story Title Three</h2>
+      <p>A third story example to show the layout. This is just placeholder content for now.</p>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 Simply Overcomplicated. All rights reserved.
+  </footer>
+
+</body>
+</html>
