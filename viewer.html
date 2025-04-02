@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Article Viewer</title>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 2rem; line-height: 1.6; background: #fff; color: #000; max-width: 800px; margin: auto; }
+    h1, h2, h3 { margin-top: 1.5rem; }
+    blockquote { border-left: 4px solid #000; padding-left: 1rem; color: #555; }
+    pre { background: #f0f0f0; padding: 1rem; overflow-x: auto; }
+  </style>
+</head>
+<body>
+  <div id="content">Loading article...</div>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const file = params.get('file');
+
+    if (file) {
+      fetch(file)
+        .then(response => response.text())
+        .then(text => {
+          // Remove YAML front matter
+          const cleaned = text.replace(/^---[\s\S]*?---/, '').trim();
+          document.getElementById('content').innerHTML = marked.parse(cleaned);
+        })
+        .catch(err => {
+          document.getElementById('content').innerText = 'Failed to load article.';
+        });
+    } else {
+      document.getElementById('content').innerText = 'No article specified.';
+    }
+  </script>
+</body>
+</html>
