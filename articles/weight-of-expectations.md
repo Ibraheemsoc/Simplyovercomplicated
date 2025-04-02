@@ -1,0 +1,6 @@
+---
+title: "The Weight of Expectations"
+date: 2025-04-02
+---
+
+We carry stories not just in our heads, but in how we move through the world. This piece unpacks the invisible pressure we all feel.
