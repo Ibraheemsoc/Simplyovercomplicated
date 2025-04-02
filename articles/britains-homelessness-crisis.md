@@ -1,4 +1,5 @@
-title: Britain’s Homelessness Crisis: Are Councils Fighting a Losing Battle?
+---
+title: "Britain’s Homelessness Crisis: Are Councils Fighting a Losing Battle?"
 date: 2025-04-02
 ---
 
@@ -21,11 +22,4 @@ On the government’s pledge to build 1.5 million homes, she scoffs: “The last
 When asked about balancing help between local homeless people and asylum seekers, she shifts uncomfortably. “I don’t have all the answers. I just know this isn’t sustainable.”
 
 She sighs, glancing at her overflowing inbox. “Tomorrow, there’ll be another eviction, another desperate phone call, another case I have to handle.” And on what Prime Minister Keir Starmer will do? “I don’t think even he knows.”
-
----
-
-📝 **Author:** Humayra Hussein  
-📧 humayrahussein101@gmail.com  
-📱 07943754673  
-📰 Originally intended for publication on *Novara Media*
 
